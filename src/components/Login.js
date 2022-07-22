@@ -7,7 +7,13 @@ const Wrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+  background: linear-gradient(
+    0deg,
+    rgba(208, 236, 205, 1) 0%,
+    rgba(201, 217, 189, 1) 30%,
+    rgba(223, 223, 190, 1) 69%,
+    rgba(247, 235, 214, 1) 100%
+  );
 `;
 
 const LoginWrap = styled.div`
